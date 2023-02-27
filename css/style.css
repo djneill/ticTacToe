@@ -1,0 +1,116 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* body {
+  background-image: url(../images/oven.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70%;
+} */
+html {
+  background: url("../images/oven.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+h1 {
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, 2px 2px 0 #000, 2px 2px 0 #000, 2px 2px 0 #000;
+}
+div.square {
+
+}
+
+/******************************************
+/* Game Board
+/*******************************************/
+#gameBoardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameBoard {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0;
+  align-items: center;
+}
+/* Top Board Row */
+.topLeft {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+.topCenter {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+.topRight {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+}
+/* Middle Board Row */
+.middleLeft {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+.middleCenter {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+.middleRight {
+  width: 150px;
+  height: 150px;
+  border-bottom: 5px solid #fff;
+}
+/* Bottom Board Row */
+.bottomLeft {
+  width: 150px;
+  height: 150px;
+  border-right: 5px solid #fff;
+}
+.bottomCenter {
+  width: 150px;
+  height: 150px;
+  border-right: 5px solid #fff;
+}
+.bottomRight {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
