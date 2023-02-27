@@ -1,4 +1,4 @@
-# ticTacToe
+# Tic Tac Toe
 
 Group project to build Tic Tac Toe using OOP in Javascript
 
