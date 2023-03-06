@@ -1,4 +1,4 @@
-# Tic Tac Toe
+# Tic Tac Toe Dominos vs Papa Johns
 
 Group project to build Tic Tac Toe using OOP in Javascript
 
