@@ -22,6 +22,6 @@ class PapaJohns extends Player {
         super(symbol)
     }
     playerChoice() {
-    image.src = "../images/Papa-Johns-Pizza-Logo-1995.png"
+        image.src = "../images/Papa-Johns-Pizza-Logo-1995.png"
     }
 }
